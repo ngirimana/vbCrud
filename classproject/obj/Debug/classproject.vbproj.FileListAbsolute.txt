@@ -1,0 +1,12 @@
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.vbprojAssemblyReference.cache
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.Form1.resources
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.Resources.resources
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.vbproj.GenerateResource.cache
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.vbproj.CoreCompileInputs.cache
+C:\Users\Schadrack\Documents\vb\classproject\classproject\bin\Debug\classproject.exe.config
+C:\Users\Schadrack\Documents\vb\classproject\classproject\bin\Debug\classproject.exe
+C:\Users\Schadrack\Documents\vb\classproject\classproject\bin\Debug\classproject.pdb
+C:\Users\Schadrack\Documents\vb\classproject\classproject\bin\Debug\classproject.xml
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.exe
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.xml
+C:\Users\Schadrack\Documents\vb\classproject\classproject\obj\Debug\classproject.pdb

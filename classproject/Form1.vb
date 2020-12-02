@@ -40,7 +40,7 @@ Public Class Form1
         cmd.Parameters.AddWithValue("@reg", txtRegNumber.Text)
         cmd.Parameters.AddWithValue("@phone", txtPhoneNumber.Text)
         cmd.Parameters.AddWithValue("@manu", txtManufacturer.Text)
-        cmd.Parameters.AddWithValue("@serial", txtPhoneNumber.Text)
+        cmd.Parameters.AddWithValue("@serial", txtSerialNumber.Text)
         cmd.Parameters.AddWithValue("@id", stud_id)
         con.Open()
         cmd.ExecuteNonQuery()

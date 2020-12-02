@@ -45,104 +45,117 @@ Partial Class Form1
         'lblFullName
         '
         Me.lblFullName.AutoSize = True
-        Me.lblFullName.Location = New System.Drawing.Point(53, 18)
+        Me.lblFullName.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFullName.Location = New System.Drawing.Point(61, 46)
         Me.lblFullName.Name = "lblFullName"
-        Me.lblFullName.Size = New System.Drawing.Size(54, 13)
+        Me.lblFullName.Size = New System.Drawing.Size(97, 24)
         Me.lblFullName.TabIndex = 0
         Me.lblFullName.Text = "Full Name"
         '
         'lblIdNumber
         '
         Me.lblIdNumber.AutoSize = True
-        Me.lblIdNumber.Location = New System.Drawing.Point(53, 51)
+        Me.lblIdNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblIdNumber.Location = New System.Drawing.Point(61, 88)
         Me.lblIdNumber.Name = "lblIdNumber"
-        Me.lblIdNumber.Size = New System.Drawing.Size(58, 13)
+        Me.lblIdNumber.Size = New System.Drawing.Size(101, 24)
         Me.lblIdNumber.TabIndex = 1
         Me.lblIdNumber.Text = "ID Number"
         '
         'lblRegNumber
         '
         Me.lblRegNumber.AutoSize = True
-        Me.lblRegNumber.Location = New System.Drawing.Point(53, 79)
+        Me.lblRegNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblRegNumber.Location = New System.Drawing.Point(61, 132)
         Me.lblRegNumber.Name = "lblRegNumber"
-        Me.lblRegNumber.Size = New System.Drawing.Size(103, 13)
+        Me.lblRegNumber.Size = New System.Drawing.Size(119, 24)
         Me.lblRegNumber.TabIndex = 2
-        Me.lblRegNumber.Text = "Registration Number"
+        Me.lblRegNumber.Text = "Reg Number"
         '
         'lblPhoneNumber
         '
         Me.lblPhoneNumber.AutoSize = True
-        Me.lblPhoneNumber.Location = New System.Drawing.Point(434, 15)
+        Me.lblPhoneNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblPhoneNumber.Location = New System.Drawing.Point(477, 40)
         Me.lblPhoneNumber.Name = "lblPhoneNumber"
-        Me.lblPhoneNumber.Size = New System.Drawing.Size(78, 13)
+        Me.lblPhoneNumber.Size = New System.Drawing.Size(140, 24)
         Me.lblPhoneNumber.TabIndex = 3
         Me.lblPhoneNumber.Text = "Phone Number"
         '
         'lblCompMan
         '
         Me.lblCompMan.AutoSize = True
-        Me.lblCompMan.Location = New System.Drawing.Point(434, 48)
+        Me.lblCompMan.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCompMan.Location = New System.Drawing.Point(477, 88)
         Me.lblCompMan.Name = "lblCompMan"
-        Me.lblCompMan.Size = New System.Drawing.Size(118, 13)
+        Me.lblCompMan.Size = New System.Drawing.Size(120, 24)
         Me.lblCompMan.TabIndex = 4
-        Me.lblCompMan.Text = "Computer Manufacturer"
+        Me.lblCompMan.Text = "Manufacturer"
         '
         'lblSerialNumber
         '
         Me.lblSerialNumber.AutoSize = True
-        Me.lblSerialNumber.Location = New System.Drawing.Point(439, 79)
+        Me.lblSerialNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSerialNumber.Location = New System.Drawing.Point(477, 129)
         Me.lblSerialNumber.Name = "lblSerialNumber"
-        Me.lblSerialNumber.Size = New System.Drawing.Size(73, 13)
+        Me.lblSerialNumber.Size = New System.Drawing.Size(131, 24)
         Me.lblSerialNumber.TabIndex = 5
         Me.lblSerialNumber.Text = "Serial Number"
         '
         'txtFullName
         '
-        Me.txtFullName.Location = New System.Drawing.Point(200, 15)
+        Me.txtFullName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtFullName.Location = New System.Drawing.Point(220, 39)
         Me.txtFullName.Name = "txtFullName"
-        Me.txtFullName.Size = New System.Drawing.Size(187, 20)
+        Me.txtFullName.Size = New System.Drawing.Size(187, 26)
         Me.txtFullName.TabIndex = 6
         '
         'txtIdNo
         '
-        Me.txtIdNo.Location = New System.Drawing.Point(200, 48)
+        Me.txtIdNo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIdNo.Location = New System.Drawing.Point(220, 81)
         Me.txtIdNo.Name = "txtIdNo"
-        Me.txtIdNo.Size = New System.Drawing.Size(187, 20)
+        Me.txtIdNo.Size = New System.Drawing.Size(187, 26)
         Me.txtIdNo.TabIndex = 7
         '
         'txtRegNumber
         '
-        Me.txtRegNumber.Location = New System.Drawing.Point(200, 76)
+        Me.txtRegNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtRegNumber.Location = New System.Drawing.Point(220, 128)
         Me.txtRegNumber.Name = "txtRegNumber"
-        Me.txtRegNumber.Size = New System.Drawing.Size(187, 20)
+        Me.txtRegNumber.Size = New System.Drawing.Size(187, 26)
         Me.txtRegNumber.TabIndex = 8
         '
         'txtPhoneNumber
         '
-        Me.txtPhoneNumber.Location = New System.Drawing.Point(581, 8)
+        Me.txtPhoneNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtPhoneNumber.Location = New System.Drawing.Point(688, 34)
         Me.txtPhoneNumber.Name = "txtPhoneNumber"
-        Me.txtPhoneNumber.Size = New System.Drawing.Size(187, 20)
+        Me.txtPhoneNumber.Size = New System.Drawing.Size(187, 26)
         Me.txtPhoneNumber.TabIndex = 9
         '
         'txtManufacturer
         '
-        Me.txtManufacturer.Location = New System.Drawing.Point(581, 41)
+        Me.txtManufacturer.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtManufacturer.Location = New System.Drawing.Point(688, 81)
         Me.txtManufacturer.Name = "txtManufacturer"
-        Me.txtManufacturer.Size = New System.Drawing.Size(187, 20)
+        Me.txtManufacturer.Size = New System.Drawing.Size(187, 26)
         Me.txtManufacturer.TabIndex = 10
         '
         'txtSerialNumber
         '
-        Me.txtSerialNumber.Location = New System.Drawing.Point(581, 76)
+        Me.txtSerialNumber.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtSerialNumber.Location = New System.Drawing.Point(688, 118)
         Me.txtSerialNumber.Name = "txtSerialNumber"
-        Me.txtSerialNumber.Size = New System.Drawing.Size(187, 20)
+        Me.txtSerialNumber.Size = New System.Drawing.Size(187, 26)
         Me.txtSerialNumber.TabIndex = 11
         '
         'btnInsert
         '
-        Me.btnInsert.Location = New System.Drawing.Point(75, 148)
+        Me.btnInsert.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnInsert.Location = New System.Drawing.Point(292, 178)
         Me.btnInsert.Name = "btnInsert"
-        Me.btnInsert.Size = New System.Drawing.Size(75, 23)
+        Me.btnInsert.Size = New System.Drawing.Size(101, 36)
         Me.btnInsert.TabIndex = 12
         Me.btnInsert.Text = "Insert"
         Me.btnInsert.UseVisualStyleBackColor = True
@@ -150,16 +163,18 @@ Partial Class Form1
         'lblMessage
         '
         Me.lblMessage.AutoSize = True
-        Me.lblMessage.Location = New System.Drawing.Point(477, 148)
+        Me.lblMessage.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblMessage.Location = New System.Drawing.Point(505, 141)
         Me.lblMessage.Name = "lblMessage"
-        Me.lblMessage.Size = New System.Drawing.Size(0, 13)
+        Me.lblMessage.Size = New System.Drawing.Size(0, 24)
         Me.lblMessage.TabIndex = 13
         '
         'btnUpdate
         '
-        Me.btnUpdate.Location = New System.Drawing.Point(200, 148)
+        Me.btnUpdate.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnUpdate.Location = New System.Drawing.Point(454, 178)
         Me.btnUpdate.Name = "btnUpdate"
-        Me.btnUpdate.Size = New System.Drawing.Size(75, 23)
+        Me.btnUpdate.Size = New System.Drawing.Size(101, 36)
         Me.btnUpdate.TabIndex = 14
         Me.btnUpdate.Text = "Update"
         Me.btnUpdate.UseVisualStyleBackColor = True
@@ -167,16 +182,17 @@ Partial Class Form1
         'dtgStusentsData
         '
         Me.dtgStusentsData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.dtgStusentsData.Location = New System.Drawing.Point(56, 231)
+        Me.dtgStusentsData.Location = New System.Drawing.Point(99, 250)
         Me.dtgStusentsData.Name = "dtgStusentsData"
-        Me.dtgStusentsData.Size = New System.Drawing.Size(732, 150)
+        Me.dtgStusentsData.Size = New System.Drawing.Size(748, 150)
         Me.dtgStusentsData.TabIndex = 15
         '
         'btnDelete
         '
-        Me.btnDelete.Location = New System.Drawing.Point(312, 148)
+        Me.btnDelete.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDelete.Location = New System.Drawing.Point(598, 178)
         Me.btnDelete.Name = "btnDelete"
-        Me.btnDelete.Size = New System.Drawing.Size(75, 23)
+        Me.btnDelete.Size = New System.Drawing.Size(101, 36)
         Me.btnDelete.TabIndex = 16
         Me.btnDelete.Text = "Delete"
         Me.btnDelete.UseVisualStyleBackColor = True
@@ -185,7 +201,8 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.ClientSize = New System.Drawing.Size(927, 450)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.dtgStusentsData)
         Me.Controls.Add(Me.btnUpdate)
@@ -204,6 +221,7 @@ Partial Class Form1
         Me.Controls.Add(Me.lblIdNumber)
         Me.Controls.Add(Me.lblFullName)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Student Computer Information"
         CType(Me.dtgStusentsData, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
